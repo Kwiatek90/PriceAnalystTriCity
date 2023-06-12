@@ -10,8 +10,8 @@
 Projekt analizy i przewidywania cen mieszkan w Trójmieście napisany w języku Python, jest podzielony na 4 etapy:
 * Srapper - pobiera dane na temat mieszkań z serwisu internetowego
 * Czyszczenie danych - dane z seriwsu czyścimy i zmieniamy typy danych, dodajemy nowe kolumny za pomocą pandas
-* Wizualizacja danych - W TRAKCIE
-* Przewidywanie cen mieszkań - W TRAKCIE
+* Wizualizacja danych - analiza danych poprzez wykresy z bibliotek seaborn, matplotlib
+* Przewidywanie cen mieszkań - machine learing za pomocą bibloteki Sci-Kit Learn
 
 ## Technologie
 * Visual Studio Code
