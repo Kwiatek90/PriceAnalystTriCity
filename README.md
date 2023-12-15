@@ -1,21 +1,19 @@
-# Generator Haseł
+# Analysis and prediction of apartment prices in the Tricity
 
-## Spis treści
-* [Generalne info](#generalne-info)
-* [Technologie](#technologie)
-* [Setup](#testy)
+## Contents
+* [Introduction](#introduction)
+* [Setup](#setup)
+* [Video](#Video)
+* [Applied technologies and libraries](#applied-technologies-and-libraries)
+* [License](#license)
 
+## Introduction
 
-## Generalne info
-Projekt analizy i przewidywania cen mieszkan w Trójmieście napisany w języku Python, jest podzielony na 4 etapy:
-* Srapper - pobiera dane na temat mieszkań z serwisu internetowego
-* Czyszczenie danych - dane z seriwsu czyścimy i zmieniamy typy danych, dodajemy nowe kolumny za pomocą pandas
-* Wizualizacja danych - W TRAKCIE
-* Przewidywanie cen mieszkań - W TRAKCIE
-
-## Technologie
-* Visual Studio Code
-* PyCharm
+The project for analyzing and predicting housing prices in Tricity, written in Python, is divided into 4 stages:
+* Scrapper - retrieves data about apartments from a website using the Selenium package.
+* Data Cleaning - we clean and change the data from the website, add new columns using Pandas. We add geographical coordinates using the Geopy library.
+* Data Visualization - we present the results of data analysis using the Matplotlib, Plotly, and Seaborn libraries.
+* Prediction of Apartment Prices - we create a Random Forest model using the SciKit Learn library and predict the price of an apartment with the parameters we choose
 
 ## Setup
 
